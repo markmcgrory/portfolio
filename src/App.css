@@ -17,7 +17,7 @@ body {
   font-size: 20px;
   position: relative;
   top: -20px;
-  padding-left: 12%;
+  padding-left: 11%;
   /* border: solid black; */
 }
 
@@ -29,10 +29,11 @@ ul {
   align-items: flex-end;
   justify-content: space-around;
   list-style-type: none;
-  padding-left: 50%;
+  padding-left: 60%;
 }
 
 a {
+  color: black;
   list-style: none;
   text-decoration: none;
 }
@@ -43,9 +44,28 @@ a {
 }
 
 .about {
-  margin: 15%
+
+  position: relative;
+  top: 150px;
+  left: 190px;
+  width: 45%;
+  line-height: 1.7;
+  
+  
+  
 }
 
 .portfolio {
   margin: 15%
+}
+
+.experience {
+  margin: 15%;
+}
+
+img {
+  position: relative;
+  left: 810px;
+  top: -50px;
+  max-width: 20%;
 }

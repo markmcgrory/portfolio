@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
-import About from './components/About'
 import Home from './components/Home'
 import NavBar from './components/NavBar'
 import Portfolio from './components/Portfolio'
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -11,8 +11,9 @@ function App() {
       <NavBar/>
       <Routes>  
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio/*" element={<Portfolio />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/experience" element={<Experience />} />
+
       </Routes>
     </Router>
   );
