@@ -6,20 +6,6 @@
     justify-content: center;
     position: relative;
   }
-
-  .navbar-content {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-name {
-    font-size: 40px; 
-    font-weight: bold;
-    color: white; 
-    position: absolute;
-    left: 35px;
-  }
-
   
   .navbar a {
     text-decoration: none;
