@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import About from "./components/About";
 import NavBar from "./components/NavBar";
 import ErrorPage from "./components/ErrorPage";
+import MainContainer from "./containers/MainContainer";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Routes>  
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Projects />} />
-        <Route path="/experience" element={<About />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={ <ErrorPage />} />
       </Routes>
     </Router>
