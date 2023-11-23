@@ -4,18 +4,21 @@ import './NavBar.css'
 const NavBar = () => {
     return ( 
         <nav className="navbar">
+            <div className='name'>
+                Mark McGrory
+            </div>
         <ul className="nav-links">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">about</Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects">projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact">contact</Link>
         </li>
       </ul>
     </nav>
