@@ -15,7 +15,7 @@
 
   .nav-links li {
     margin: 0 2rem;
-    transition: all .2s ease-in-out; 
+    transition: all .3s ease-in-out; 
     }
 
 .nav-links li:hover{
@@ -27,6 +27,6 @@
     grid-auto-flow: column;
     grid-gap: 35px; /* Adjust spacing between links */
     list-style: none;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
   }

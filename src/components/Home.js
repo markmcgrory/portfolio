@@ -5,7 +5,7 @@ const Home = () => {
   return ( 
       <div className='home-container'>
         <div className='home-text'>
-          I'm Mark McGrory, a software developer based in Shetland. Welcome to my portfolio site. Please take a look around.
+          I'm <span className='bold-name'>Mark McGrory</span>, a budding software developer based in Shetland. Welcome to my portfolio site. Please take a look around.
         </div>
       </div>
   );

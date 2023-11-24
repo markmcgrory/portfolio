@@ -1,4 +1,4 @@
-.home-container {
+.about-container {
     /* margin-top: 200px; */
     display: flex;
     justify-content: center; /* Center horizontally */   
@@ -7,15 +7,11 @@
     height: 100vh;
 }
 
-.home-text {
+.about-text {
     margin-top: 300px;
     padding: 20px;
     max-width: 800px;
     text-align: center;
     font-size: 3.5rem;
     /* font-weight: bold; */
-}
-
-.bold-name {
-    font-weight: bold;
 }
