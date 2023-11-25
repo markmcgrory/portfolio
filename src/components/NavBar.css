@@ -1,5 +1,5 @@
 .navbar {
-    padding: 2rem;
+    padding: 1rem;
     background-color: black; 
     color: white; 
     display: flex;
@@ -25,8 +25,8 @@
   .nav-links ul {
     display: grid;
     grid-auto-flow: column;
-    grid-gap: 35px; /* Adjust spacing between links */
+    grid-gap: 30px; /* Adjust spacing between links */
     list-style: none;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
   }
