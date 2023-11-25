@@ -30,3 +30,15 @@
     font-size: 20px;
     font-weight: bold;
   }
+
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0.5rem 2.5rem 0.5rem 0.5rem; /* Adjust padding for smaller screens */
+      /* Padding: top, right, bottom, left */
+    }
+  
+    .nav-links li {
+      margin: 0 0.5rem; /* Further reduce margin for smaller screens */
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  }
