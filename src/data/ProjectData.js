@@ -5,7 +5,7 @@ const Projects = [
 		name: "Subway Samurai", 
 		image: '/images/subway1.png', 
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
-		description: 'gdghdfghdfghdfghdfg'
+		description: 'A zombie game built with React, JavaScript, Java and Howler.js'
     },
 	{
 		id: 2,
