@@ -1,0 +1,31 @@
+/* ProjectList.css */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 70px; /* Padding around the container */
+  }
+  
+  .project-card {
+    max-width: 1000px; /* Set a maximum width to maintain consistency */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 60px; /* Margin between project cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px; /* Rounded corners on the top */
+  }
+  
+  .project-info {
+    padding: 15px;
+    text-align: center;
+  }
+  

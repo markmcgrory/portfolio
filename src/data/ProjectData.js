@@ -5,21 +5,21 @@ const Projects = [
 		name: "Subway Samurai", 
 		image: '/images/subway1.png', 
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
-		description: ''
+		description: 'gdghdfghdfghdfghdfg'
     },
 	{
 		id: 2,
 		name: "Navigate App",
 		image: '/images/navigate.png',
 		gitub: 'https://github.com/markmcgrory/navigate_app',
-		description: ''
+		description: 'dfghdfghdfgdfghdfghd'
 	},
 	{
 		id: 3,
 		name: "Bookshop Manager",
 		image: '/images/bookshop.png',
 		github: 'https://github.com/markmcgrory/python_project',
-		description: ''
+		description: 'dfghdfghdfghdfghd'
 	}
 ]
 

@@ -1,13 +1,13 @@
 const FAQData = [
     {
         id: 1,
-        question: '',
-        answer: ''
+        question: 'How is this going to worK?',
+        answer: "I don't know just yet"
     },
     {
         id: 2,
-        question: '',
-        answer: ''
+        question: 'When will you know?',
+        answer: 'Soon'
     }
 ]
  
