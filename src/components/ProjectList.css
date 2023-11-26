@@ -8,17 +8,17 @@
   .project-card {
     max-width: 1100px; 
     border: 1px solid #ccc;
-    border-radius: 8px;
+   
     margin-bottom: 60px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    padding: 50px;
    
   }
   
   .project-card img {
     width: 100%;
     height: auto;
-    border-radius: 4px; 
+    border-radius: 8px; 
   }
   
   .project-info {
@@ -28,4 +28,14 @@
     font-size: 1.5rem;
   }
 
+  @media (max-width: 480px){
+    .project-card {
+        width: 280px;
+        padding: 20px;
+    }
+
+    .project-card img {
+        max-width: 100%;
+    }
+  }
   
