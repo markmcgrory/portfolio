@@ -1,4 +1,4 @@
-const FAQData = [
+const faqData = [
     {
         id: 1,
         question: 'How is this going to worK?',
@@ -11,4 +11,4 @@ const FAQData = [
     }
 ]
  
-export default FAQData;
+export default faqData;
