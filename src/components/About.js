@@ -1,10 +1,14 @@
 import './About.css'
-import FAQData from '../data/faqData';
+import faqData from '../data/FAQData';
 import FAQList from './FAQList'
 
 const About = () => {
     return (
-        <FAQList FAQData={FAQData}/>
+        <div className='about-text'>
+            Here will be some text about me.
+        <FAQList faqData={faqData}/>
+        </div>
+
     );
 }
  

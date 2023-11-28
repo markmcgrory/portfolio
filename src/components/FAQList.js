@@ -1,4 +1,4 @@
-import faqData from "../data/faqData";
+import faqData from "../data/FAQData";
 import FAQItem from "./FAQItem";
 
 
