@@ -2,9 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
     border: solid black;
 }
 
-.project-video{
+.video-container {
+    width: 70%;
+    padding: 40px;
     border: solid black;
 }
+
+video {
+    width: 100%; /* Set the width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent video from exceeding its container's width */
+  }
+  
+  
+
+

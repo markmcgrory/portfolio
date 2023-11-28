@@ -9,14 +9,14 @@ const ProjectDetails = () => {
 
   return (
     <div className='project-detail'>
-      {project.video && ( 
-        <div className="project-video">
+      <div className="video-container">
+        {project.video && ( 
           <video width="640" height="360" controls>
             <source src={process.env.PUBLIC_URL + project.video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-        </div>
-      )}
+        )}
+      </div>
 
       <div className="project-info">
         <h2>{project.name}</h2>
