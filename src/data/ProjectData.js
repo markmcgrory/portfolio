@@ -33,7 +33,7 @@ const Projects = [
 		name: "Bookshop Manager",
 		images: [
 			'/images/pythonimage1.png',
-			'images/pythonimage2.png',
+			'/images/pythonimage2.png',
 		],
 		github: 'https://github.com/markmcgrory/python_project',
 		description: 'An app..',

@@ -5,8 +5,10 @@
     padding: 70px; 
   }
   
+  
   .project-card img {
-    width: 100%;
+    max-width: 1200px;
+    height: auto;
   }
   
   .project-info {

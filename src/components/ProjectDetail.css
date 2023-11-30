@@ -18,6 +18,16 @@ video {
     max-width: 100%; /* Prevent video from exceeding its container's width */
   }
   
-  
+
+.carousel-container {
+    border: solid black;
+    max-width: 1100px;
+  }
 
 
+  .carousel .control-dots .dot {
+    width: 15px; /* Set the width of the dot */
+    height: 15px; /* Set the height of the dot */
+    margin: 0 10px; /* Adjust the margin between dots if needed */
+    background-color: black; /* Change this to your preferred color */
+  }
