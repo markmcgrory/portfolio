@@ -13,7 +13,7 @@ const Projects = [
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
 		description: 'A zombie game... ',
 		techStack: 'React, JavaScript, Java, Spring, Howler.js',
-		video: '/videos/SubwaySamurai.mp4',
+		video: '',
 		projectInfo: ''
     },
 	{

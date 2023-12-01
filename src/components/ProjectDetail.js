@@ -1,28 +1,26 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Projects from '../data/ProjectData'; 
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import ImageGallery from 'react-image-gallery';
+import 'react-image-gallery/styles/css/image-gallery.css'; // Import the CSS for image gallery
 import './ProjectDetail.css';
 
 const ProjectDetails = () => {
   const { id } = useParams(); 
   const project = Projects.find((project) => project.id === parseInt(id));
-  
+
+  // Prepare images array for react-image-gallery
+  const images = project.images.map(image => ({
+    original: process.env.PUBLIC_URL + image,
+    thumbnail: process.env.PUBLIC_URL + image, // You can use the same image as thumbnail or provide a different URL
+
+  }));
 
   return (
     <div className='project-detail'>
-      <div className="carousel-container">
-        {project.images && project.images.length > 0 && ( 
-          <Carousel showStatus={false} showArrows={true} >
-            {project.images.map((image, index) => (
-              <div key={index}>
-                <img src={process.env.PUBLIC_URL + image} alt={`Project ${project.name} Image ${index}`} />
-              </div>
-            ))}
-          </Carousel>
-        )}
-      </div>
+      {project.images && project.images.length > 0 && ( 
+        <ImageGallery items={images} showFullscreenButton={true} showPlayButton={false} />
+      )}
 
       <div className="video-container">
         {project.video && ( 
