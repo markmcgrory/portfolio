@@ -18,27 +18,32 @@ const ProjectDetails = () => {
 
   return (
     <div className='project-detail'>
-      {project.images && project.images.length > 0 && ( 
-        <ImageGallery items={images} showFullscreenButton={true} showPlayButton={false} />
+  <div className="gallery-container">
+    {project.images && project.images.length > 0 && ( 
+      <ImageGallery items={images} showFullscreenButton={false} showPlayButton={false} />
+    )}
+  </div>
+
+  <div className="content-container">
+    <div className="video-container">
+      {project.video && ( 
+        <video width="640" height="360" controls>
+          <source src={process.env.PUBLIC_URL + project.video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       )}
-
-      <div className="video-container">
-        {project.video && ( 
-          <video width="640" height="360" controls>
-            <source src={process.env.PUBLIC_URL + project.video} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        )}
-      </div>
-
-      <div className="project-info">
-        <h2>{project.name}</h2>
-        <p>{project.description}</p>
-        <p>{project.techStack}</p>
-        <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub Link</a>
-        {/* Add other project information as needed */}
-      </div>
     </div>
+
+    <div className="project-info">
+      <h2>{project.name}</h2>
+      <p>{project.description}</p>
+      <p>{project.techStack}</p>
+      <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub Link</a>
+      {/* Add other project information as needed */}
+    </div>
+  </div>
+</div>
+
   );
 };
 
