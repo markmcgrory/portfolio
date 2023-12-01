@@ -44,19 +44,27 @@ video {
   }
 }
 
-@media screen and (max-width: 768px) {
+/* Your existing CSS */
+
+@media screen and (max-width: 480px) {
+  /* Media query for screens up to 480px */
+
   .project-detail {
-    flex-direction: column; 
+    flex-direction: column;
+    align-items: center; /* Center items in the column layout */
   }
 
-  .gallery-container,
+  .gallery-container {
+    width: 90%; /* Make the gallery container slightly smaller for small screens */
+    margin-top: 20px; /* Adjust top margin for spacing */
+  }
+
   .content-container {
-    width: 100%; 
-    margin-left: 0; 
-    padding-right: 0; 
+    width: 100%; /* Set the content container to full width */
+    margin-left: 0; /* Remove any left margin */
+    padding-right: 0; /* Remove any right padding */
   }
 }
-
 
 
 

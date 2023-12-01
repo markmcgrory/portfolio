@@ -9,7 +9,6 @@ const ProjectList = () => {
       {Projects.map((project) => (
         <Link to={`/projects/${project.id}`} key={project.id} className="project-link">
           <div className="project-card">
-            {/* Accessing the first image from the images array */}
             {project.images && project.images.length > 0 && (
               <img src={process.env.PUBLIC_URL + project.images[0]} alt={project.name} />
             )}
