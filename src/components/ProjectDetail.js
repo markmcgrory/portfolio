@@ -8,11 +8,9 @@ import './ProjectDetail.css';
 const ProjectDetails = () => {
   const { id } = useParams(); 
   const project = Projects.find((project) => project.id === parseInt(id));
-
-  // Prepare images array for react-image-gallery
   const images = project.images.map(image => ({
     original: process.env.PUBLIC_URL + image,
-    thumbnail: process.env.PUBLIC_URL + image, // You can use the same image as thumbnail or provide a different URL
+    thumbnail: process.env.PUBLIC_URL + image, 
 
   }));
 
@@ -35,11 +33,9 @@ const ProjectDetails = () => {
     </div>
 
     <div className="project-info">
-      <h2>{project.name}</h2>
-      <p>{project.description}</p>
+      <span className='project-name'>{project.name}</span>
       <p>{project.techStack}</p>
-      <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub Link</a>
-      {/* Add other project information as needed */}
+      <p>{project.description}</p>
     </div>
   </div>
 </div>
