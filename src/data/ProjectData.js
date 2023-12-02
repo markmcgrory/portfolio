@@ -11,10 +11,9 @@ const Projects = [
 			'/images/subwayimage5.png',
 		],
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
-		description: 'A zombie game... ',
+		description: 'Subway Samurai is a comic zombie brawler game set in Glasgow. It was created in a small group in just two weeks for our final CodeClan project. We incorporated music and sound effects, using Howler.js, as well as turn-based combat - with increasing difficulty levels as the player proceeds - as well as a health items utility and mega attacks.',
 		techStack: 'React, JavaScript, Java, Spring, Howler.js',
-		video: '',
-		projectInfo: ''
+		video: ''
     },
 	{
 		id: 2,
@@ -23,10 +22,9 @@ const Projects = [
 			'/images/navigateimage1.png',
 			'/images/navigateimage2.png',
 		],
-		gitub: 'https://github.com/markmcgrory/navigate_app',
-		description: 'An app...',
-		techStack: 'React, JavaScript...',
-		projectInfo: ''
+		github: 'https://github.com/markmcgrory/navigate_app',
+		description: 'Navigate is an internal, location-data and management application for the social services. We wanted to create an app that could store service users and support services data, allowing the user to add, update and assign users to services around Glasgow. This was built in six days and formed our second CodeClan project.',
+		techStack: 'React, JavaScript, MongoDB, Express, ArcGIS'
 	},
 	{
 		id: 3,
@@ -36,10 +34,8 @@ const Projects = [
 			'/images/pythonimage2.png',
 		],
 		github: 'https://github.com/markmcgrory/python_project',
-		description: 'An app..',
-		techStack: 'Python, Flask...',
-		projectInfo: ''
-
+		description: "Bookshop Manager was my first full-stack application, which I built from scratch in six days. It's aimed at staff working in a small bookstore. Functionality implemented: show book inventory, add to it or delete from it, show book details, update book details. Ditto with wholesalers, but the user can also filter books by wholesaler.",
+		techStack: 'Python, Flask, PostgreSQL'
 	}
 ]
 

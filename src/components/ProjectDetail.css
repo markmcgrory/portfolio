@@ -21,7 +21,15 @@
 }
 
 .project-name {
-  font-weight: bold;
+  font-weight: 700;
+}
+
+.project-tech-stack {
+  font-weight: 700;
+}
+
+.project-description {
+  font-weight: 500;
 }
 
 
