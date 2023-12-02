@@ -13,7 +13,7 @@ const Projects = [
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
 		description: 'Subway Samurai is a comic zombie brawler game set in Glasgow. It was created in a small group in just two weeks for our final CodeClan project. We incorporated music and sound effects, using Howler.js, as well as turn-based combat - with increasing difficulty levels as the player proceeds - as well as a health items utility and mega attacks.',
 		techStack: 'React, JavaScript, Java, Spring, Howler.js',
-		video: ''
+		linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:7131990495580319745/'
     },
 	{
 		id: 2,

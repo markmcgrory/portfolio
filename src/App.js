@@ -5,7 +5,6 @@ import ProjectList from './components/ProjectList';
 import About from "./components/About";
 import NavBar from "./components/NavBar";
 import ErrorPage from "./components/ErrorPage";
-import Contact from "./components/Contact";
 import ProjectDetail from "./components/ProjectDetail";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <Route path="/projects" element={<ProjectList />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>

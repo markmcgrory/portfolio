@@ -1,7 +1,6 @@
 .navbar {
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: black; 
-    color: white; 
     display: flex;
     justify-content: center;
     position: relative;
@@ -14,18 +13,18 @@
   }
 
   .nav-links li {
-    margin: 0 2rem;
+    margin: 0 1.3rem;
     transition: all .3s ease-in-out; 
     }
 
 .nav-links li:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
   .nav-links ul {
     display: grid;
     grid-auto-flow: column;
-    grid-gap: 30px; /* Adjust spacing between links */
+    grid-gap: 20px; /* Adjust spacing between links */
     list-style: none;
     font-size: 20px;
     font-weight: 700;
@@ -38,7 +37,7 @@
     }
   
     .nav-links li {
-      margin: 0 0.3rem; /* Further reduce margin for smaller screens */
+      margin: 0 0.6rem; /* Further reduce margin for smaller screens */
       font-size: 16px; /* Adjust font size for smaller screens */
     }
   }
