@@ -63,7 +63,7 @@
   }
 
   .gallery-container {
-    width: 90%; /* Make the gallery container slightly smaller for small screens */
+    width: 100%; /* Make the gallery container slightly smaller for small screens */
     margin-top: 20px; /* Adjust top margin for spacing */
   }
 

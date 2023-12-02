@@ -14,12 +14,10 @@
   @media (max-width: 480px){
     .project-card {
       width: 100%;
-      margin: 0 auto;
-      
     }
 
     .projects-container {
-      padding:20px;
+      padding:10px;
       margin-top: 10px;
     }
     
