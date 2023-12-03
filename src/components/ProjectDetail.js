@@ -5,6 +5,7 @@ import ImageGallery from 'react-image-gallery';
 import { SocialIcon } from 'react-social-icons';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import './ProjectDetail.css';
+import { FaVideo } from "react-icons/fa";
 
 const ProjectDetails = () => {
   const { id } = useParams();
