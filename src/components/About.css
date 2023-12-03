@@ -1,17 +1,25 @@
 .about-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 10px);
+    text-align: center; /* Aligns text inside the container */
 }
-
 
 .about-text {
-    padding: 20px;
-    margin-top: 50px;
-    text-align: center;
- 
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: left; 
+    width: 65%; 
 }
 
-.faq-section {
-    text-align: center;
-    
-}
+@media (max-width: 480px) {
+    .about-text {
+        width: 90%;
+        margin-top: 170px;
+        font-size: 20px;
+        text-align: left;
+    }
+  }
+

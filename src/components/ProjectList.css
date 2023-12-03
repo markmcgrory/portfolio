@@ -8,7 +8,13 @@
   .project-card img {
     max-width: 1000px;
     height: auto;
+    transition: transform 0.4s ease-in-out;
   }
+
+
+.project-card img:hover {
+  transform: translateY(-6px); /* Adjust the value to change the amount of movement */
+}
 
 
   @media (max-width: 480px){

@@ -25,7 +25,7 @@ const ProjectDetails = () => {
       <div className="content-container">
         <div className="project-info">
           <span className='project-name'>{project.name}</span>
-          <p className='project-tech-stack'>Tech stack: {project.techStack}</p>
+          <p className='project-tech-stack'>{project.techStack}</p>
           <p className='project-description'>{project.description}</p>
 
           {/* GitHub and LinkedIn Icons */}

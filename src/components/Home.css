@@ -14,10 +14,11 @@
     text-align: center;
     font-size: 2rem;
     font-weight: 500;
+    
   }
   
   .bold-name {
-    font-size: 900;
+    font-weight: 900;
   }
   
   .social-icons {
