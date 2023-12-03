@@ -27,7 +27,7 @@
     grid-gap: 20px; /* Adjust spacing between links */
     list-style: none;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   @media (max-width: 480px) {
