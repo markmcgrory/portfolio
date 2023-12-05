@@ -10,7 +10,7 @@ const ProjectList = () => {
         <Link to={`/projects/${project.id}`} key={project.id} className="project-link">
           <div className="project-card">
             {project.images && project.images.length > 0 && (
-              <img src={process.env.PUBLIC_URL + project.images[0]} alt={project.name} />
+              <img src={process.env.PUBLIC_URL + project.images[0]} alt={project.name}/>
             )}
           </div>
         </Link>

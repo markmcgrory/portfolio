@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 70px; 
+    padding: 55px; 
   }
 
 .project-card {
@@ -15,8 +15,6 @@
     height: auto;
     transition: transform 0.4s ease-in-out;
   }
-
- 
 
 
 .project-card img:hover {
