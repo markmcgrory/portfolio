@@ -22,7 +22,11 @@
 }
 
 .project-name {
+  margin-left: -5px;
   font-weight: 700;
+  border: solid black;
+  border-width: thin;
+  padding: 5px;
 }
 
 .project-tech-stack {
