@@ -1,24 +1,26 @@
 .about-container {
     display: flex;
     justify-content: space-between; /* Distribute space between elements */
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     height: calc(100vh - 70px);
   }
   
   .about-text {
+
     margin-left: 30px;
     font-weight: 300;
     font-size: 1.2rem;
     text-align: left;
     width: 72%; /* Adjust width as needed */
-    padding: 30px; /* Add padding for spacing */
+    padding: 30px;
   }
   
   .profile-image {
-    margin-top: -60px;
-    margin-right: 120px;
+    margin-top: 40px;
+    margin-right: 10px;
     width: 30%;
+    padding-right: 30px;
     height: auto;
   
   }
@@ -31,19 +33,18 @@
         align-items: center;
     }
     .about-text {
-        width: 82%;
+        border: solid black;
+        width: 85%;
         font-size: 20px;
         text-align: left;
-        margin-left: -5px;
-        margin-top: -5px;
+        margin-left: auto;
     }
     .profile-image {
-        
+        border: solid black;
         width: 70%;
         height: auto;
         order: -1;
         margin-top: 55px;
-        margin-left: 130px;
       }
   }
 
