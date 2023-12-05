@@ -7,10 +7,11 @@
   
   .about-text {
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 40px;
     font-weight: 300;
     font-size: 1.2rem;
     text-align: left;
+    padding-right: 20px;
   }
   
   .profile-image {
@@ -32,7 +33,7 @@
     .about-text {
         font-size: 20px;
         text-align: left;
-        margin-left: auto;
+        margin-left: 10px;
         padding: 10px;
     }
     .profile-image {
