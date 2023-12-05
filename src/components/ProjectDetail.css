@@ -55,21 +55,21 @@
 
 
 @media screen and (max-width: 480px) {
-  /* Media query for screens up to 480px */
+ 
 
   .project-detail {
     flex-direction: column;
-    align-items: center; /* Center items in the column layout */
+    align-items: center; 
   }
 
   .gallery-container {
-    width: 100%; /* Make the gallery container slightly smaller for small screens */
-    margin-top: 20px; /* Adjust top margin for spacing */
+    width: 100%; 
+    margin-top: 20px; 
   }
 
   .content-container {
     margin-top: 50px;
-    width: 90%; /* Set the content container to full width */
+    width: 90%;
 
   }
 }

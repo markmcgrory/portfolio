@@ -20,7 +20,7 @@
 
 
 .project-card img:hover {
-  transform: translateY(-6px); /* Adjust the value to change the amount of movement */
+  transform: translateY(-6px); 
 }
 
 

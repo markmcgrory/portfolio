@@ -13,8 +13,6 @@ const About = () => {
 
         <p>I am now looking for an opportunity to apply these skills commercially and to continue my journey as a developer.</p>
       </div>
-
-      {/* Include the image on the right */}
       <img
         src={process.env.PUBLIC_URL + '/images/portfolio.png'}
         alt="Profile"
