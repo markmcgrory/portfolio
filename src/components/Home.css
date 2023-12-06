@@ -17,7 +17,7 @@
     max-width: 700px;
     text-align: center;
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 2rem;
     
     
   }
@@ -25,7 +25,7 @@
   .bold-name {
    
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2.5rem;
   
     
       }
@@ -52,6 +52,7 @@
         margin-top: -100px;
         width: 95%;
         text-align: center;
+        font-size: 2rem;
     }
   }
 
