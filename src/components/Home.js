@@ -7,7 +7,7 @@ const Home = () => {
     <div className='home-container'>
       <div className='home-text'>
         <p>
-          I'm <span className='bold-name'>Mark McGrory</span>, a software developer based in Shetland. Welcome to my portfolio.
+          I'm <span className='bold-name'>Mark McGrory</span>, a software developer based in <strong>Shetland</strong>. Welcome to my portfolio.
         </p>
       </div>
       <div className='social-icons'>

@@ -10,15 +10,32 @@
   }
   
   .home-text {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 700px;
     text-align: center;
-    font-size: 2rem;
     font-weight: 300;
+    font-size: 2.5rem;
+    
     
   }
-  
+
   .bold-name {
+   
     font-weight: 900;
+    font-size: 3rem;
+  
+    
+      }
+
+  .subtitle {
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: -15px;
+    
+
   }
   
   .social-icons {
@@ -32,9 +49,8 @@
 
   @media (max-width: 480px) {
     .home-text {
-        width: 95%;
         margin-top: -100px;
-        font-size: 30px;
+        width: 95%;
         text-align: center;
     }
   }

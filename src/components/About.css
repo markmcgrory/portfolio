@@ -8,8 +8,8 @@
   .about-text {
     margin-top: 50px;
     margin-left: 40px;
-    font-weight: 300;
     font-size: 1.2rem;
+    font-weight: 300;
     text-align: left;
     padding-right: 20px;
   }
@@ -31,7 +31,7 @@
         align-items: center;
     }
     .about-text {
-        font-size: 20px;
+        font-size: 1.1rem;
         text-align: left;
         margin-left: 10px;
         padding: 10px;
