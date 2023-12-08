@@ -18,9 +18,9 @@
   
   .profile-image {
   
-    margin-right: 20px;
     width: 30%;
     padding-right: 60px;
+    padding-left: 20px;
     height: auto;
   
   }
@@ -31,14 +31,14 @@
     height: auto;
   }
 
-    .about-container {
+  .about-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-bottom: 50px;
         
     }
-    .about-text {
+   .about-text {
         margin-left: -17px;
         font-size: 1.1rem;
         text-align: left;
@@ -47,10 +47,11 @@
 
     }
     .profile-image {
-        margin-left: 60px;
+        
         width: 70%;
         height: auto;
         margin-top: -20px;
+        padding-left: 40px;
         order: -1;
       }
   }
@@ -73,13 +74,7 @@
       padding-top: 30px;
     }
 
-    .profile-image {
-      margin: auto;
-      height: auto;
-      width: 40%;
-      order: -1;
-    
-    }
+  
   }
 
 
