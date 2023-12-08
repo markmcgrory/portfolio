@@ -1,10 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import ProjectList from './components/ProjectList';
-import NavBar from './components/NavBar'; // Import your NavBar component
-
+import NavBar from './components/NavBar'; 
 import './App.css';
 import ProjectDetail from './components/ProjectDetail';
 

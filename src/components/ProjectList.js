@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Projects from '../data/ProjectData';
-import './ProjectList.css'; // Import CSS file for styling
+import './ProjectList.css'; 
 
 const ProjectList = () => {
   return (

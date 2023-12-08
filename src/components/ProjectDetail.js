@@ -1,5 +1,5 @@
 import React from 'react';
-import Projects from '../data/ProjectData'; // Import your Projects data
+import Projects from '../data/ProjectData'; 
 import ImageGallery from 'react-image-gallery';
 import { SocialIcon } from 'react-social-icons';
 import 'react-image-gallery/styles/css/image-gallery.css';
