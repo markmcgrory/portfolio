@@ -39,7 +39,7 @@
         
     }
     .about-text {
-      margin-left: -15px;
+        margin-left: -17px;
         font-size: 1.1rem;
         text-align: left;
         padding-top: 20px;
@@ -50,8 +50,36 @@
         margin-left: 60px;
         width: 70%;
         height: auto;
+        margin-top: -20px;
         order: -1;
       }
+  }
+
+  @media (max-width: 768px){
+    #about {
+      height: auto;
+      padding-bottom: 50px;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+
+    .about-text {
+      padding-top: 30px;
+    }
+
+    .profile-image {
+      margin: auto;
+      height: auto;
+      width: 40%;
+      order: -1;
+    
+    }
   }
 
 

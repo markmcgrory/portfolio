@@ -3,10 +3,12 @@
   display: flex;
   background-color: #f0f0f0; 
   height: 600px;
+  
 }
 
 .project-info {
-  font-size: 17px;
+  font-size: 18px;
+  
 }
 
 .gallery-container {
@@ -15,8 +17,6 @@
   margin-left: 30px;
 
 }
-
-
 
 .content-container {
   margin-top: 70px;
@@ -28,8 +28,7 @@
 .project-name {
   margin-left: -5px;
   font-weight: 700;
-  border-width: thin;
-  padding: 5px;
+
 }
 
 .project-tech-stack {
@@ -38,6 +37,13 @@
 
 .project-description {
   font-weight: 300;
+}
+
+.project-date {
+  font-weight: 500;
+  margin-top: -15px;
+  margin-bottom: 25px;
+
 }
 
 .project-icons {
@@ -52,18 +58,33 @@
  
 
   .project-detail {
+    
+    height: auto;
     flex-direction: column;
     align-items: center; 
   }
 
   .gallery-container {
+    
+    margin-right: 30px;
     width: 95%; 
   }
 
   .content-container {
-    margin-top: 50px;
+    margin-top: -1px;
+   
     width: 90%;
+    margin-right: 30px;
+    padding-bottom: 30px;
+  
 
+  }
+}
+
+@media (max-width: 768px){
+  .content-container {
+    
+    margin-top: 45px;
   }
 }
 

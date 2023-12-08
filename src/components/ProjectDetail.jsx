@@ -21,6 +21,7 @@ const ProjectDetail = () => {
           <div className="content-container">
             <div className="project-info">
               <h2>{project.name}</h2>
+              <p className='project-date'>{project.date}</p>
               <p className='project-tech-stack'>{project.techStack}</p>
               <p className='project-description'>{project.description}</p>
               <div className="project-icons">
