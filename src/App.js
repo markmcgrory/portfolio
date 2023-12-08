@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import NavBar from './components/NavBar'; 
@@ -18,7 +18,6 @@ const App = () => {
     <Router>
       <div>
         <NavBar scrollToSection={scrollToSection} /> 
-
         <div id="home">
           <Home />
         </div>

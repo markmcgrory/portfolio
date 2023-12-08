@@ -1,17 +1,17 @@
 .project-detail {
+  
   display: flex;
   background-color: #f0f0f0; 
-  
+  height: 600px;
 }
 
 .project-info {
-  margin-top: 5px;
   font-size: 17px;
 }
 
 .gallery-container {
   margin-top: 50px;
-  width: 50%; 
+  width: 50%;
   margin-left: 30px;
 
 }
@@ -19,8 +19,8 @@
 
 
 .content-container {
-  margin-top: 80px;
-  margin-left: 40px;
+  margin-top: 70px;
+  margin-left: 30px;
   text-align: left;
   width: 40%; 
 }
@@ -47,19 +47,6 @@
   gap: 15px;
 }
 
-@media screen and (max-width: 480px) {
-  .project-detail {
-    flex-direction: column; 
-  }
-
-  .gallery-container,
-  .content-container {
-    width: 100%; 
-    margin-left: 0; 
-    padding-right: 0; 
-  }
-}
-
 
 @media screen and (max-width: 480px) {
  
@@ -71,7 +58,6 @@
 
   .gallery-container {
     width: 95%; 
-    margin-top: 20px; 
   }
 
   .content-container {
