@@ -3,6 +3,7 @@ const Projects = [
 	{ 
 		id: 1, 
 		name: "Subway Samurai", 
+		date: 'November 2023',
 		images: [
 			'/images/subwayimage1.png',
 			'/images/subwayimage2.png',
@@ -19,6 +20,7 @@ const Projects = [
 	{
 		id: 2,
 		name: "Navigate App",
+		date: 'October 2023',
 		images: [
 			'/images/navigateimage1.png',
 			'/images/navigateimage2.png',
@@ -31,6 +33,7 @@ const Projects = [
 	{
 		id: 3,
 		name: "Bookshop Manager",
+		date: 'September 2023',
 		images: [
 			'/images/pythonimage1.png',
 			'/images/pythonimage2.png',
