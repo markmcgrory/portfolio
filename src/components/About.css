@@ -6,15 +6,13 @@
   }
 
   #about {
-    background-color: #f0f0f0; 
-    
-    height: 700px; 
+    height: 500px; 
 }
   
 
   
   .about-text {
-    margin-top: 50px;
+   
     margin-left: 40px;
     font-size: 1.2rem;
     font-weight: 300;
@@ -23,7 +21,7 @@
   }
   
   .profile-image {
-    margin-top: 50px;
+
     margin-right: 20px;
     width: 30%;
     padding-right: 60px;

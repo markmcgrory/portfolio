@@ -1,4 +1,9 @@
 
+#home {
+  background-color: #f0f0f0; 
+  height: 700px;
+}
+
 .home-container {
     display: flex;
     justify-content: center;
