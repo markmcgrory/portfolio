@@ -1,25 +1,38 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './components/Home';
+import About from './components/About';
 import ProjectList from './components/ProjectList';
-import About from "./components/About";
-import NavBar from "./components/NavBar";
-import ErrorPage from "./components/ErrorPage";
-import ProjectDetail from "./components/ProjectDetail";
+import NavBar from './components/NavBar'; // Import your NavBar component
 
-function App() {
+import './App.css';
+import ProjectDetail from './components/ProjectDetail';
+
+const App = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Router>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<ProjectList />} />
-        <Route path="/projects/:id" element={<ProjectDetail />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
+      <div>
+        <NavBar scrollToSection={scrollToSection} /> 
+
+        <div id="home">
+          <Home />
+        </div>
+        <div id="about">
+          <About />
+        </div>
+        <div id="projects">
+          <ProjectDetail/>
+        </div>
+      </div>
     </Router>
   );
-}
+};
 
 export default App;

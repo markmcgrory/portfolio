@@ -4,6 +4,14 @@
     align-items: flex-start;
     width: 100%;
   }
+
+  #about {
+    background-color: #f0f0f0; 
+    
+    height: 700px; 
+}
+  
+
   
   .about-text {
     margin-top: 50px;
@@ -24,6 +32,10 @@
   }
 
 @media (max-width: 480px) {
+
+  #about {
+    height: auto;
+  }
 
     .about-container {
         display: flex;
@@ -46,4 +58,5 @@
         margin-top: 40px;
       }
   }
+
 
