@@ -12,8 +12,7 @@ const Projects = [
 			'/images/subwayimage5.png',
 		],
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
-		shortDescription: 'Zombie game set in Glasgow',
-		description: 'Subway Samurai is a comic zombie brawler game set in Glasgow. It was created in a small group in just two weeks for our final CodeClan project. We incorporated music and sound effects, using Howler.js, as well as turn-based combat - with increasing difficulty levels as the player proceeds - as well as a health items utility and mega attacks.',
+		description: 'Subway Samurai is a comic zombie brawler game set in Glasgow, using React for the front-end and Java for the back-end. In our small team, we incorporated music and sound effects, using Howler.js, as well as turn-based combat - with increasing difficulty levels as the player proceeds. The game also features useable "health items" - Tiger Balm, paracetamol, whisky and beer -  and a mega attack. We designed and built this from scratch in just under two weeks.',
 		techStack: 'React, JavaScript, Java, Spring, Howler.js',
 		linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:7131990495580319745/'
     },
@@ -26,8 +25,7 @@ const Projects = [
 			'/images/navigateimage2.png',
 		],
 		github: 'https://github.com/markmcgrory/navigate_app',
-		shortDescription: 'Homelessness app',
-		description: 'Navigate is an internal, location-data and management application for the social services. We wanted to create an app that could store service users and support services data, allowing the user to add, update and assign users to services around Glasgow. This was built in six days and formed our second CodeClan project.',
+		description: 'Navigate is an internal management application for social services. We wanted to create an app that could store service users and support services data, allowing the user to add, update and assign users to services around Glasgow. This was built in just six days and formed our second CodeClan project.',
 		techStack: 'React, JavaScript, MongoDB, Express, ArcGIS'
 	},
 	{
@@ -39,8 +37,7 @@ const Projects = [
 			'/images/pythonimage2.png',
 		],
 		github: 'https://github.com/markmcgrory/python_project',
-		shortDescription: 'Bookstore app',
-		description: "Bookshop Manager was my first full-stack application, which I built from scratch in six days. It's aimed at staff working in a small bookstore. Functionality implemented: show book inventory, add to it or delete from it, show book details, update book details. Ditto with wholesalers, but the user can also filter books by wholesaler.",
+		description: "Bookshop Manager was my first full-stack application, incorportating a front-end and back-end with PostgreSQL database. It was built in six days. It's aimed at staff working in a small bookstore, and allows the user to show book inventory, add to it or delete from it, show book details, update book details. Ditto with wholesalers, but the user can also filter books by wholesaler.",
 		techStack: 'Python, Flask, PostgreSQL'
 	}
 ]
