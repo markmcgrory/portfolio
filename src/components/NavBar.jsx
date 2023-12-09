@@ -9,17 +9,17 @@ const NavBar = ({ scrollToSection }) => {
         <ul>
           <li>
             <Link to="home" onClick={() => scrollToSection('home')}>
-              Home
+              home
             </Link>
           </li>
           <li>
             <Link to="about" onClick={() => scrollToSection('about')}>
-              About
+              about
             </Link>
           </li>
           <li>
             <Link to="projects" onClick={() => scrollToSection('projects')}>
-              Projects
+              projects
             </Link>
           </li>
         </ul>

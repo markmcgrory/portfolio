@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <img
         src={process.env.PUBLIC_URL + '/images/portfolio.png'}
-        alt="Profile"
+        alt="Picture of me in snowy Tresta holding Fionn in a baby carrier"
         className="profile-image"
       />
     </div>
