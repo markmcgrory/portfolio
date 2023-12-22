@@ -1,10 +1,20 @@
 .project-detail {
   
   display: flex;
-  background-color: #f0f0f0; 
+  /* background-color: #f0f0f0;  */
   height: 600px;
-  
 }
+
+.project-detail-container {
+  text-align: center;
+}
+
+.recent-projects-title {
+  margin-top: 20px; /* Adjust margin-top as needed */
+  font-size: 2rem; /* Adjust font size as needed */
+  /* Additional styles for the title */
+}
+
 
 .project-info {
   font-size: 18px;

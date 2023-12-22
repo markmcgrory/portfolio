@@ -1,5 +1,10 @@
 #about {
     height: 550px;
+    background-color: #404040;
+}
+
+.about-me {
+  font-weight: 900;
 }
     
 .about-container {

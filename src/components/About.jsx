@@ -5,6 +5,7 @@ const About = () => {
   return (
     <div className='about-container'>
       <div className='about-text'>
+        <p className='about-me'>About me</p>
         <p>I am a career changer with almost twenty years of varied work experience behind me, but my <strong>curiosity</strong>, capacity for <strong>problem solving</strong>, and <strong>love of learning</strong> drove me to pursue a new path in software development.</p>
 
         <p>I'm a recent graduate (November 2023) of CodeClan's Professional Software Development bootcamp in Glasgow, where I learned to build <strong>full-stack</strong> applications using <strong>Python, JavaScript, Java & React</strong>, as well as using database systems such as PostgreSQL and MongoDB, and other technologies.</p>
@@ -13,11 +14,11 @@ const About = () => {
 
         <p>I am now looking for an opportunity to apply these skills commercially and to continue my journey as a developer.</p>
       </div>
-      <img
+      {/* <img
         src={process.env.PUBLIC_URL + '/images/portfolio.png'}
         alt="Me in snowy Tresta holding Fionn in a baby carrier"
         className="profile-image"
-      />
+      /> */}
     </div>
   );
 };

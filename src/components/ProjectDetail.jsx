@@ -7,10 +7,13 @@ import './ProjectDetail.css';
 
 const ProjectDetail = () => {
   return (
-    <div>
+    
+    <div className="project-detail-container">
+      <h1 className="recent-projects-title">Recent Projects</h1>
       {Projects.map((project) => (
         <div className='project-detail' key={project.id}>
           <div className="gallery-container">
+  
             {project.images && project.images.length > 0 && (
               <ImageGallery items={project.images.map((image) => ({
                 original: process.env.PUBLIC_URL + image,
