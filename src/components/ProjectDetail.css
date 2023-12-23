@@ -1,8 +1,33 @@
 .project-detail {
   
+  color: BLACK;
   display: flex;
-  /* background-color: #f0f0f0;  */
-  height: 600px;
+  background-color: #FFFFFF;
+  height: 550px;
+ 
+}
+
+.project-detail-container {
+
+  background-color: #15202B;
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  flex-wrap: wrap; /* Ensure items wrap properly */
+}
+
+.project-item {
+  
+  padding-top: 40px;
+  width: 80%;
+  padding-bottom: 30px;
+  
+  
+}
+
+.project-detail {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a box shadow */
 }
 
 .project-detail-container {
@@ -10,9 +35,8 @@
 }
 
 .recent-projects-title {
-  margin-top: 20px; /* Adjust margin-top as needed */
-  font-size: 2rem; /* Adjust font size as needed */
-  /* Additional styles for the title */
+  margin-top: 20px; 
+  font-size: 2rem; 
 }
 
 
@@ -29,6 +53,7 @@
 }
 
 .content-container {
+  
   margin-top: 70px;
   margin-left: 30px;
   text-align: left;
@@ -38,11 +63,14 @@
 .project-name {
   margin-left: -5px;
   font-weight: 700;
-
+  
 }
+
+
 
 .project-tech-stack {
   font-weight: 700;
+  
 }
 
 .project-description {
@@ -50,6 +78,7 @@
 }
 
 .project-date {
+  color: #8899a6;
   font-weight: 500;
   margin-top: -15px;
   margin-bottom: 25px;
@@ -112,6 +141,11 @@
     height: auto;
     flex-direction: column;
     align-items: center; 
+    
+  }
+
+  .project-item {
+    width: 90%;
   }
 
   .gallery-container {

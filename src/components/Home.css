@@ -1,60 +1,73 @@
+/* Center text and icons in home container */
+#home {
+  height: 750px;
+}
+
 .home-image {
- 
-  border-radius: 200px;
-  width: 300px;
-  margin-right: 50px; /* Adjust margin to create space between image and text */
-  margin-bottom: 90px;
+  width: 500px;
+  padding-left: 70px;
 }
 
 .home-container {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  width: 100%;
   height: 100vh;
+  
 }
 
 .home-text {
-  margin-right: 20px;
-  max-width: 300px;
-  text-align: center; 
-  margin-left: -30px;
-  margin-bottom: 90px;
-  font-size: 1.7rem;
+  flex: 1;
+  padding-left: 80px;
+  max-width: 500px;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 .bold-name {
   font-weight: 500;
+  color: #8899a6;
 }
+
+.second-p {
+  font-size: 3rem;
+}
+
 
 .social-icons {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px; /* This might not work in all browsers, use fallback */
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 40px; /* Adjust margin for better spacing */
 }
 
 .social-icons > * {
   margin-right: 15px; /* Adjust the margin to create space between icons */
 }
 
-
+/* Media queries for responsive design */
 @media (max-width: 480px) {
-  .home-container {
-    flex-direction: column; /* Change to a column layout */
-    align-items: center; /* Center align content */
+
+  #home {
+    height: auto;
   }
 
-  .home-image {
-    margin-right: 0; /* Reset margin to default */
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    
   }
 
   .home-text {
-    margin-top: -30px; 
-    margin-left: 15px; /* Reset margin to default */
-    width: 95%; 
+    
+    width: 92%;
+    margin-right: 90px;
+    margin-left: 40px;
+    font-size: 1.5rem; /* Decrease font size for smaller screens */
+    margin-top: 50px;
+  }
+
+  .home-image {
+   display: none;
   }
 
   .social-icons {
@@ -62,17 +75,7 @@
   }
 }
 
-
-
-@media (max-width: 768px){
-      #home {
-        height: auto;
-      }
-
-
-
-    }
-
-
-
-  
+/* Additional media queries for other screen sizes if needed */
+@media (max-width: 768px) {
+  /* Add specific styles for screens up to 768px width if required */
+}

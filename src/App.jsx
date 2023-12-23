@@ -21,11 +21,12 @@ const App = () => {
         <div id="home">
           <Home />
         </div>
-        <div id="about">
-          <About />
-        </div>
+        
         <div id="projects">
           <ProjectDetail/>
+        </div>
+        <div id="about">
+          <About />
         </div>
       </div>
     </Router>

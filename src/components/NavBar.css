@@ -1,11 +1,11 @@
 .navbar {
     padding: 2rem;
-    background-color: #404040;
+    background-color: #15202B;
     display: flex;
     justify-content: center;
     position: relative;
   }
-  
+
   .navbar a {
     text-decoration: none;
     list-style: none;

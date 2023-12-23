@@ -1,38 +1,30 @@
 #about {
     height: 550px;
-    background-color: #404040;
+    background-color: #121212;
+}
+
+.about-text {
+  
+  width: 100%;
+  
 }
 
 .about-me {
   font-weight: 900;
+  color: #8899a6;
+  
 }
     
 .about-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-left: 40px;
+  
+    padding-left: 50px;
     font-size: 1.2rem;
     font-weight: 300;
     text-align: left;
     padding-right: 20px;
     padding-top: 60px;
   }
-  
- 
-  
-  .profile-image {
-  
-    width: 30%;
-    padding-right: 60px;
-    padding-left: 20px;
-    height: auto;
-    
-  
-  }
-
-  
-
+   
 @media (max-width: 480px) {
 
   #about {
@@ -48,9 +40,8 @@
     }
    .about-text {
         margin-left: -17px;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         text-align: left;
-        
         margin-top: -30px;
         
 
