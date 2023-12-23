@@ -8,9 +8,9 @@ const Home = () => {
       <div className='home-text'>
         <p>Hi.</p>
         <p className='second-p'>
-          I'm <span className='bold-name'>Mark McGrory</span> — a software developer based in <span className='shetland'>Shetland</span>.
+          I'm <span className='bold-name'>Mark McGrory</span>, a software developer based in <span className='shetland'>Shetland</span>.
         </p>
-        <p>
+        <p className='third-p'>
           Something something yes that's something else hi my name's Mark
         </p>
         <div className='social-icons'>

@@ -5,8 +5,8 @@
 
 .about-text {
   
-  width: 100%;
   
+  max-width: 800px;
 }
 
 .about-me {
@@ -16,13 +16,14 @@
 }
     
 .about-container {
-  
+    display: flex;
+    justify-content: center;
     padding-left: 50px;
     font-size: 1.2rem;
     font-weight: 300;
     text-align: left;
     padding-right: 20px;
-    padding-top: 60px;
+    padding-top: 30px;
   }
    
 @media (max-width: 480px) {

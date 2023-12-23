@@ -1,6 +1,7 @@
-/* Center text and icons in home container */
+
 #home {
   height: 750px;
+  
 }
 
 .home-image {
@@ -17,10 +18,12 @@
 
 .home-text {
   flex: 1;
-  padding-left: 80px;
+  padding-left: 90px;
   max-width: 500px;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  
 }
 
 .bold-name {
@@ -30,6 +33,11 @@
 
 .second-p {
   font-size: 3rem;
+  
+}
+
+.third-p {
+  color: #8899a6;
 }
 
 
@@ -55,15 +63,16 @@
     flex-direction: column;
     align-items: center;
     
+    
   }
 
   .home-text {
     
-    width: 92%;
-    margin-right: 90px;
-    margin-left: 40px;
-    font-size: 1.5rem; /* Decrease font size for smaller screens */
-    margin-top: 50px;
+    width: 87%;
+    margin-right: 50px;
+    line-height: 1;
+    font-size: 1.7rem; 
+    margin-top: 40px;
   }
 
   .home-image {

@@ -2,46 +2,55 @@
   
   color: BLACK;
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #E4E6EB;
   height: 550px;
  
 }
 
 .project-detail-container {
-
+  
   background-color: #15202B;
   display: flex;
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
-  flex-wrap: wrap; /* Ensure items wrap properly */
+  flex-direction: column;
+  align-items: center; 
+  
 }
 
 .project-item {
   
   padding-top: 40px;
   width: 80%;
-  padding-bottom: 30px;
-  
-  
+}
+
+.project-page-container {
+  background-color: #15202B;
+  padding-bottom: 50px;
+
+}
+
+.recent-projects-title {
+  font-size: 24px; 
+  padding-top: 40px; 
+  padding-bottom: 40px;
+  font-weight: 900;
 }
 
 .project-detail {
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a box shadow */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
-.project-detail-container {
-  text-align: center;
-}
+
 
 .recent-projects-title {
+  
   margin-top: 20px; 
   font-size: 2rem; 
 }
 
 
 .project-info {
-  font-size: 18px;
+  font-size: 20px;
   
 }
 
@@ -54,7 +63,7 @@
 
 .content-container {
   
-  margin-top: 70px;
+  margin-top: 35px;
   margin-left: 30px;
   text-align: left;
   width: 40%; 
@@ -62,11 +71,7 @@
 
 .project-name {
   margin-left: -5px;
-  font-weight: 700;
-  
 }
-
-
 
 .project-tech-stack {
   font-weight: 700;
@@ -79,7 +84,7 @@
 
 .project-date {
   color: #8899a6;
-  font-weight: 500;
+  font-weight: 700;
   margin-top: -15px;
   margin-bottom: 25px;
   margin-left: 2px;
@@ -92,6 +97,7 @@
   justify-content: left;
   flex-wrap: wrap;
   gap: 15px;
+  
 }
 
 .image-gallery-fullscreen-button .image-gallery-svg {
@@ -117,41 +123,39 @@
 
 
 
-@media (min-width: 1024px) {
-  .project-detail:nth-child(2) {
-    flex-direction: row-reverse;
-  }
 
-  .project-detail:nth-child(2) .gallery-container {
-    margin-right: 30px; 
-    margin-left: 0; 
-  }
-
-  .project-detail:nth-child(2) .content-container {
-    margin-right: 25px;
-    margin-left: 0;
-  }
-}
 
 @media (max-width: 480px) {
  
 
+  .project-detail-container{
+    height: auto;
+   
+  }
+
   .project-detail {
     
-    height: auto;
     flex-direction: column;
     align-items: center; 
     
   }
 
+  .recent-projects-title {
+    text-align: center;
+  
+  }
+
   .project-item {
+    
     width: 90%;
+    
   }
 
   .gallery-container {
     
     margin-right: 35px;
-    width: 95%; 
+    width: 97%; 
+    margin-top: 10px;
     
   }
 
@@ -181,25 +185,7 @@
        align-items: center; 
     }
 
-    .gallery-container {
-    
-      margin-right: 35px;
-      width: 95%; 
-      
-    }
-
-    .content-container {
-    
-      width: 95%;
-      margin-right: 25px;
-      padding-bottom: 30px;
-      margin-top: 5px;
-      
-  
-  
-    }
-    
-  }
+}
 
 
 
