@@ -11,7 +11,7 @@ const Home = () => {
           I'm <span className='bold-name'>Mark McGrory</span>, a software developer based in <span className='shetland'>Shetland</span>.
         </p>
         <p className='third-p'>
-          Something something yes that's something else hi my name's Mark
+          Having recently graduated from a coding bootcamp, I'm now looking for some real-world experience.
         </p>
         <div className='social-icons'>
           <SocialIcon style={{ width: '53px', height: '53px' }} bgColor="black" fgColor="white" url="https://github.com/markmcgrory" target="_blank" rel="noopener noreferrer" />

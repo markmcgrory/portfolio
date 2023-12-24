@@ -13,3 +13,10 @@
 .footer a {
     color: yellow;
 }
+
+@media (max-width: 480px) {
+
+    .footer {
+        font-size: 10px;
+    }
+}

@@ -62,13 +62,14 @@
     flex-direction: column;
     align-items: center;
     
-    
+
   }
 
   .home-text {
     
     width: 87%;
-    margin-right: 50px;
+    padding-right: 10px;
+    margin-right: 70px;
     line-height: 1;
     font-size: 1.7rem; 
     margin-top: 40px;
@@ -79,8 +80,10 @@
   }
 
   .social-icons {
-    margin-top: 10px; /* Adjust margin top for spacing */
+    margin-top: 40px; /* Adjust margin top for spacing */
   }
+
+ 
 }
 
 /* Additional media queries for other screen sizes if needed */
