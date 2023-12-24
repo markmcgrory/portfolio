@@ -1,0 +1,11 @@
+.footer {
+    
+    padding: 2rem;
+    background-color: #15202B;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 15px;
+}

@@ -3,6 +3,7 @@ import { HashRouter as Router } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import NavBar from './components/NavBar'; 
+import Footer from './components/Footer';
 import './App.css';
 import ProjectDetail from './components/ProjectDetail';
 
@@ -28,7 +29,9 @@ const App = () => {
         <div id="about">
           <About />
         </div>
+        <Footer />
       </div>
+
     </Router>
   );
 };

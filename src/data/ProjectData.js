@@ -13,7 +13,7 @@ const Projects = [
 		],
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
 		description: 'Subway Samurai is a comic zombie brawler game set in Glasgow, using React for the front-end and Java for the back-end. In our small team, we incorporated music and sound effects, using Howler.js, as well as turn-based combat - with increasing difficulty levels as the player proceeds. The game also features useable "health items" - Tiger Balm, paracetamol, whisky and beer -  and a mega attack. We designed and built this from scratch in just under two weeks.',
-		techStack: 'React, JavaScript, Java, Spring, Howler.js',
+		techStack: 'React, Java, Spring, Howler.js',
 		linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:7131990495580319745/'
     },
 	{
@@ -26,7 +26,7 @@ const Projects = [
 		],
 		github: 'https://github.com/markmcgrory/navigate_app',
 		description: 'Navigate is an internal management application for social services. We wanted to create an app that could store service users and support services data, allowing the user to add, update and assign users to services around Glasgow. This was built in just six days and formed our second CodeClan project.',
-		techStack: 'React, JavaScript, MongoDB, Express, ArcGIS'
+		techStack: 'React, MongoDB, Express, ArcGIS'
 	},
 	{
 		id: 3,
