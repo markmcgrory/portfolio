@@ -16,7 +16,7 @@ const Home = () => {
           I'm <span className='bold-name'>Mark McGrory</span>, a software developer based in <span className='shetland'>Shetland</span>.
         </p>
         <p className='third-p'>
-          I'm a recent bootcamp graduate, looking for my first role.
+          A recent bootcamp graduate, I am proficient in <strong>JavaScript</strong>, <strong>Python</strong> and <strong>Java</strong>, and I have experience building <strong>full-stack applications</strong>.
         </p>
         </Fade>
         <Fade left>
