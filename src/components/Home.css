@@ -127,7 +127,7 @@ strong {
 
   .home-text {
     margin-top: 20px;
-    margin-right: 100px; /* Reset the conflicting margin-right */
+    margin-right: 110px; /* Reset the conflicting margin-right */
     line-height: 1;
     font-size: 1.5rem;
   }
@@ -155,7 +155,8 @@ strong {
   }
 
   .home-text {
-    font-size: 1.4rem;
+    margin-top: -20px;
+    font-size: 1.3rem;
   }
 
   .second-p {

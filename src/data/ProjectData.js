@@ -7,7 +7,7 @@ const Projects = [
 			'/images/portfolioimage.png'
 		],
 		github: 'https://github.com/markmcgrory/portfolio',
-		description: "Upon graduating from CodeClan, I put my efforts into using React to build myself a portfolio website to showcase my work. I leveraged various React libraries, including React Reveal and React Image Gallery, to give it a nice finish. In putting this together, I learned about the importance of design planning (I didn't do enough), the challenges of building a fully responsive app, and the power and variety of additional libraries to save you time and effort.",
+		description: "Upon graduating from CodeClan, I put my efforts into using React to build myself a portfolio website. I leveraged various React libraries, including React Reveal and React Image Gallery, to give it a nice finish. In putting this together, I learned about the importance of design planning (I didn't do enough), the challenges of building a fully responsive app, and the power and variety of additional libraries to save you time and effort.",
 		techStack: 'React, CSS, HTML'
 
 	},
