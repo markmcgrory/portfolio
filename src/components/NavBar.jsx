@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
+import Fade from 'react-reveal/Fade'
+
 
 const NavBar = ({ scrollToSection }) => {
   return (
     <nav className="navbar">
-      
-      <div className="nav-links"> 
+       <div className="nav-links"> 
+        <Fade left>
         <ul>
           <li>
             <Link to="home" onClick={() => scrollToSection('home')}>
@@ -24,6 +26,7 @@ const NavBar = ({ scrollToSection }) => {
             </Link>
           </li>
         </ul>
+        </Fade>
       </div>
     </nav>
   );
