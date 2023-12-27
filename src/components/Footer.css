@@ -17,6 +17,8 @@
 @media (max-width: 480px) {
 
     .footer {
-        font-size: 10px;
+        font-size: 11px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
 }

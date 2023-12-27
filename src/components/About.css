@@ -7,9 +7,21 @@
 .about-text {
   
   
-  max-width: 800px;
+  max-width: 900px;
 }
 
+.bullet-points {
+  list-style: none; /* Remove default list styles */
+  padding-left: 0; /* Remove default padding */
+}
+
+.bullet-points li:before {
+  content: "\2022"; /* Unicode for bullet point character */
+  color: #ffcc00; /* Adjust bullet point color */
+  display: inline-block;
+  width: 1em; /* Adjust space between bullet and text */
+  margin-left: -1em; /* Position the bullet point */
+}
 .about-me {
   font-weight: 900;
   color: #8899a6;

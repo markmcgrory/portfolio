@@ -1,7 +1,19 @@
 const Projects = [
+	{
+		id: 4, 
+		name: "Portfolio website",
+		date: "DECEMBER 2023",
+		images: [
+			'/images/portfolioimage.png'
+		],
+		github: 'https://github.com/markmcgrory/portfolio',
+		description: 'Upon graduating from CodeClan, I put my efforts into building myself a portfolio website to showcase my work. I used React to build this, and also made use of various React libraries - most notably React Reveal and React Image Gallery - to give it a nice finish. I really enjoyed the design process, and am really pleased with the result.',
+		techStack: 'React, CSS, HTML'
+
+	},
 
 	{ 
-		id: 1, 
+		id: 2, 
 		name: "Subway Samurai", 
 		date: 'NOVEMBER 2023',
 		images: [
@@ -17,7 +29,7 @@ const Projects = [
 		linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:7131990495580319745/'
     },
 	{
-		id: 2,
+		id: 3,
 		name: "Navigate App",
 		date: 'OCTOBER 2023',
 		images: [
@@ -29,7 +41,7 @@ const Projects = [
 		techStack: 'React, MongoDB, Express, ArcGIS'
 	},
 	{
-		id: 3,
+		id: 4,
 		name: "Bookshop Manager",
 		date: 'SEPTEMBER 2023',
 		images: [

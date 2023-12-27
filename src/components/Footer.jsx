@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='footer'>
             Mark McGrory 2023. Built using&nbsp;
             <a href='https://react.dev/'>React</a>.
-            See the code&nbsp;<a href='https://github.com/markmcgrory/portfolio'>here</a>.
+            See the &nbsp;<a href='https://github.com/markmcgrory/portfolio'>code</a>.
         </div>
      );
 }

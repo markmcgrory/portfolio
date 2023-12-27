@@ -10,13 +10,13 @@ const Home = () => {
     <div className='home-container'>
       <div className='home-text'>
         <Fade bottom>
-        <p>Hi.</p>
+        <p>Hi,</p>
         
         <p className='second-p'>
           I'm <span className='bold-name'>Mark McGrory</span>, a software developer based in <span className='shetland'>Shetland</span>.
         </p>
         <p className='third-p'>
-          Having recently graduated from a coding bootcamp, I'm now looking for some real-world experience.
+          I'm a recent bootcamp graduate, looking for my first role.
         </p>
         </Fade>
         <Fade left>

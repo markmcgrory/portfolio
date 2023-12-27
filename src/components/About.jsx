@@ -17,11 +17,6 @@ const About = () => {
         <p>I am now looking for an opportunity to apply these skills commercially and to continue my journey as a developer.</p>
         </Fade>
       </div>
-      {/* <img
-        src={process.env.PUBLIC_URL + '/images/portfolio.png'}
-        alt="Me in snowy Tresta holding Fionn in a baby carrier"
-        className="profile-image"
-      /> */}
     </div>
   );
 };

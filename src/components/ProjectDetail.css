@@ -193,6 +193,22 @@
        height: auto;
        flex-direction: column;
        align-items: center; 
+       padding-bottom: 20px;
+    }
+
+    .project-item {
+    
+      width: 85%;
+      
+    }
+
+    .gallery-container {
+      margin-right: 20px;
+      width: 95%;
+    }
+
+    .content-container {
+      width: 95%;
     }
 
 }
