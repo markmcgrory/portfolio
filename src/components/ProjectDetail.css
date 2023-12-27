@@ -208,7 +208,8 @@
     }
 
     .content-container {
-      width: 95%;
+      width: 90%;
+      margin-right: 30px;
     }
 
 }
