@@ -7,7 +7,7 @@ const Projects = [
 			'/images/portfolioimage.png'
 		],
 		github: 'https://github.com/markmcgrory/portfolio',
-		description: "Upon graduating from CodeClan, I put my efforts into using React to build myself a portfolio website. I leveraged various React libraries, including React Reveal and React Image Gallery, to give it a nice finish. In putting this together, I learned about the importance of design planning (I didn't do enough), the challenges of building a fully responsive app, and the power and variety of additional libraries to save you time and effort.",
+		description: "After graduating from CodeClan, I put my efforts into using React to build myself a portfolio website. I leveraged various React libraries, including React Reveal and React Image Gallery. In putting this together, I learned about the importance of planning (I should have done more), the challenges of building a fully responsive app, and the power and variety of additional libraries to save you time and effort.",
 		techStack: 'React, CSS, HTML'
 
 	},
@@ -24,7 +24,7 @@ const Projects = [
 			'/images/subwayimage5.png',
 		],
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
-		description: 'Subway Samurai is a comic zombie brawler game set in Glasgow, using React for the front-end and Java for the back-end. In our small team, we incorporated music and sound effects, using Howler.js, as well as turn-based combat - with increasing difficulty levels as the player proceeds. The game also features useable "health items" - Tiger Balm, paracetamol, whisky and beer -  and a mega attack. We designed and built this from scratch in just under two weeks.',
+		description: 'Subway Samurai is a zombie brawler game set in Glasgow, using React for the front-end and Java for the back-end. In our small team, we incorporated music and sound effects, using Howler.js, as well as turn-based combat, with increasing difficulty levels as the player proceeds. The game also features useable "health items" - Tiger Balm, paracetamol, whisky and beer -  and a mega attack. In our small tea, we designed and built this from scratch in just under two weeks, and it constituted our CodeClan capstone project.',
 		techStack: 'React, Java, Spring, Howler.js',
 		linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:7131990495580319745/'
     },
@@ -37,7 +37,7 @@ const Projects = [
 			'/images/navigateimage2.png',
 		],
 		github: 'https://github.com/markmcgrory/navigate_app',
-		description: 'Navigate is an internal management application for social services. We wanted to create an app that could store service users and support services data, allowing the user to add, update and assign users to services around Glasgow. This was built in just six days and formed our second CodeClan project.',
+		description: '"Navigate" is an internal management application for social services. In our small team, we wanted to create an app that could store service users and support services data, allowing the user to add, update and assign users to services around Glasgow. This was built in just six days and formed our second CodeClan project.',
 		techStack: 'React, MongoDB, Express, ArcGIS'
 	},
 	{

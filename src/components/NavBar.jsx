@@ -8,7 +8,7 @@ const NavBar = ({ scrollToSection }) => {
   return (
     <nav className="navbar">
        <div className="nav-links"> 
-        <Fade left>
+        <Fade right>
         <ul>
           <li>
             <Link to="home" onClick={() => scrollToSection('home')}>
