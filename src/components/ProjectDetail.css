@@ -129,12 +129,6 @@
 
 
 
-
-
-
-
-
-
 @media (max-width: 480px) {
  
 
@@ -147,6 +141,7 @@
     
     flex-direction: column;
     align-items: center; 
+    
     
   }
 
@@ -203,8 +198,8 @@
     }
 
     .gallery-container {
-      margin-right: 20px;
-      width: 95%;
+      margin-right: 27px;
+      width: 99%;
     }
 
     .content-container {

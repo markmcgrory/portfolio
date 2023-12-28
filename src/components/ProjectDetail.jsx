@@ -14,7 +14,7 @@ const ProjectDetail = () => {
       </Fade>
       <div className="project-detail-container">
         {Projects.map((project) => (
-          <Fade key={project.id} bottom> {/* Wrap each project with Fade component */}
+          <Fade key={project.id} bottom> 
             <div className='project-item'>
               <div className='project-detail'>
                 <div className="gallery-container">

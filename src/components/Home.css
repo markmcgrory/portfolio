@@ -48,7 +48,7 @@ strong {
 }
 
 .social-icons > * {
-  margin-right: 15px; /* Adjust the margin to create space between icons */
+  margin-right: 15px; 
 
 }
 
@@ -126,10 +126,15 @@ strong {
   }
 
   .home-text {
-    margin-top: 20px;
-    margin-right: 110px; /* Reset the conflicting margin-right */
+    
+    margin-top: -10px;
+    margin-right: 110px; 
     line-height: 1;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .second-p {
+    font-size: 2.4rem;
   }
 
   .third-p {
@@ -142,7 +147,7 @@ strong {
   }
 
   .social-icons {
-    margin-top: 20px; /* Adjust margin top for spacing */
+    margin-top: 20px; 
     
   }
 }
@@ -162,7 +167,5 @@ strong {
   .second-p {
     font-size: 2.5rem;
   }
-
- 
   
 }
