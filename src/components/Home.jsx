@@ -19,7 +19,7 @@ const Home = () => {
           A recent bootcamp graduate, I am proficient in <strong>JavaScript</strong>, <strong>Python</strong> and <strong>Java</strong>, and I have experience building <strong>full-stack applications</strong>.
         </p>
         </Fade>
-        <Fade left>
+        <Fade right>
         <div className='social-icons'>
           <SocialIcon style={{ width: '53px', height: '53px' }} bgColor="black" fgColor="white" url="https://github.com/markmcgrory" target="_blank" rel="noopener noreferrer" />
           <SocialIcon style={{ width: '53px', height: '53px' }} url="https://www.linkedin.com/in/mark-mcgrory-463661277" target="_blank" rel="noopener noreferrer" />
