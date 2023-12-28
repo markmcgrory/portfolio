@@ -124,7 +124,13 @@ strong {
     
     flex-direction: column;
     align-items: center;
-    height: auto;
+    height: 800px;
+  }
+
+  .social-icons {
+    position: relative;
+    top: 50px; 
+
   }
 
   .home-text {
@@ -137,6 +143,7 @@ strong {
 
   .second-p {
     font-size: 2.4rem;
+    width: 90%;
   }
 
   .third-p {
