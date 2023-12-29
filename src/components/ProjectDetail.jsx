@@ -22,7 +22,7 @@ const ProjectDetail = () => {
                     <ImageGallery items={project.images.map((image) => ({
                       original: process.env.PUBLIC_URL + image,
                       thumbnail: process.env.PUBLIC_URL + image,
-                    }))} showPlayButton={false} showFullscreenButton={true} exitFullScreen={true}/>
+                    }))} showPlayButton={false} showFullscreenButton={false} exitFullScreen={true}/>
                   )}
                 </div>
                 <div className="content-container">
