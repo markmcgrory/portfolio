@@ -14,27 +14,41 @@
   
 }
 
+
+
 .home-text {
   
   text-align: left;
   font-size: 1.8rem;
-  line-height: 1.2;
   padding: 3%;
   width: 46%;
   margin-top: 5%;
+  letter-spacing: -0.5px;
 }
 
+
+.home-text p:first-of-type {
+  margin-bottom: -40px; 
+  color: #AAAAAA;
+}
+
+
 .bold-name {
-  font-weight: 500;
-  color: #8899a6;
+  font-weight: 300;
+  font-size: 4rem;
 }
 
 .second-p {
   font-size: 3rem;
+  
 }
 
-strong {
-  color: #8899a6;
+.third-p {
+  color: #AAAAAA;
+}
+
+.home-text .home-strong {
+  color: #FFFFFF;
 }
 
 .social-icons {
@@ -50,34 +64,44 @@ strong {
 
 
 @media only screen and (min-width: 280px) and (max-width: 540px) {
- 
-
+  
+  #home {
+    padding-bottom: 25%;
+  }
   .home-image {
     display: none;
   }
 
   .home-text {
-    padding-top: 12%;
-    width: 70%;
-    padding-left: 9%;
+    
+    padding-top: 20%;
+    width: 90%;
+    padding-left: 6%;
     font-size: 1.7rem;
   }
 
-  .second-p {
-    
-    font-size: 2.5rem;
-  } 
+  .home-text p:first-of-type {
+    margin-bottom: -40px; 
+  }
+
+  .bold-name {
+    font-weight: 300;
+    font-size: 3rem;
+  }
+
 }
 
 @media only screen and (min-width: 541px) and (max-width: 900px) {
  
-
+  #home {
+    padding-bottom: 25%;
+  }
   .home-image {
     display: none;
   }
 
   .home-text {
-    padding-top: 7%;
+    padding-top: 15%;
     width: 60%;
     padding-left: 8%;
     font-size: 2rem;  

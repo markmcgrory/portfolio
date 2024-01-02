@@ -4,7 +4,7 @@ const Projects = [
 		name: "Portfolio website",
 		date: "DECEMBER 2023",
 		images: [
-			'/images/portfolioimage.png'
+			'/images/portfolio.png'
 		],
 		github: 'https://github.com/markmcgrory/portfolio',
 		description: "After graduating from CodeClan, I put my efforts into using React to build myself a portfolio website. I leveraged various React libraries, including React Reveal and React Image Gallery. In putting this together, I learned about the importance of planning (I should have done more), the challenges of building a fully responsive app, and the power and variety of additional libraries to save you time and effort.",

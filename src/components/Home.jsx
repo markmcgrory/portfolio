@@ -9,14 +9,14 @@ const Home = () => {
   return ( 
     <div className='home-container'>
       <div className='home-text'>
-        <Fade left>
-        <p>Hi,</p>
+        <Fade bottom>
+        <p className='first-p'>Hi, I'm</p>
         
         <p className='second-p'>
-          I'm <span className='bold-name'>Mark McGrory</span>, a software developer based in <span className='shetland'>Shetland</span>.
+          <span className='bold-name'>Mark McGrory</span>.
         </p>
         <p className='third-p'>
-          I am proficient in <strong>object-oriented programming</strong> and have experience building <strong>full-stack</strong> applications using <strong>JavaScript, Python, Java</strong> and more.
+          I'm a software developer based in <strong className='home-strong'>Shetland</strong> with experience building <strong className='home-strong'>full-stack</strong> applications using <strong className='home-strong'>JavaScript, Python, Java</strong> and more.
         </p>
         </Fade>
         <Fade right>
