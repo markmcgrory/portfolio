@@ -13,12 +13,12 @@
   
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  background-color: #FFFFFF;
+  background-color: #212121;
   margin-bottom: 20px;
   padding: 20px;
-  font-size: 19px;
+  font-size: 1.2rem;
   font-weight: 500;
-  color: black;
+  color: #FFFFFF;
 }
 
 .about-paragraph {
@@ -31,6 +31,8 @@
   font-weight: 900;
   color: #FFFFFF;
   
+  
+  
 }
     
 .about-container {
@@ -42,29 +44,9 @@
     padding-top: 5%;
   }
    
-
-  /* @media (max-width: 768px){
-    #about {
-      height: auto;
-      padding-bottom: 50px;
-    }
-
-    .about-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-
-    .about-text {
-      margin-left: -17px;
-      font-size: 1.4rem;
-      text-align: left;
-      margin-top: -30px;
-
+@media (max-width: 900px){
+  .about-me {
+    padding-left: 3%;
   }
-  
-  } */
-
+}
 

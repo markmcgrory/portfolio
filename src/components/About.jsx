@@ -11,28 +11,49 @@ const About = () => {
         <Fade  left>
           <div className='about-box'>
             <p className='about-one'>
-              I am a career changer with almost twenty years of varied work experience behind me, but my <strong>curiosity</strong>, capacity for <strong>problem solving</strong>, and <strong>love of learning</strong> drove me to pursue a new path in software development.
+              <strong>Recent bootcamp graduate: </strong>Professional Software Development, <strong>CodeClan / CodeBase</strong>, Glasgow, July - November 2023.
             </p>
           </div>
         </Fade>
         <Fade right>
           <div className='about-box'>
             <p className='about-two'>
-              I'm a recent graduate (November 2023) of CodeClan's Professional Software Development bootcamp in Glasgow, where I learned to build <strong>full-stack</strong> applications using <strong>Python, JavaScript, Java & React</strong>, as well as using database systems such as PostgreSQL and MongoDB, and other technologies.
+              Proficient in <strong>Python, Java</strong> and <strong>JavaScript</strong>, as well as <strong>React</strong> and <strong>Node.js</strong>, although always happy to learn new languages and tools. Strong eye for <strong>design and composition.</strong>
             </p>
           </div>
         </Fade>
         <Fade left>
           <div className='about-box'>
             <p className='about-three'>
-              All aspects of the process are enjoyable to me, but I'm particularly interested in producing <strong>accessible, visually striking applications</strong> that fulfill a genuine need. My experience in photography has honed my eye for composition, and that's something I bring to the table, as well as my love of working collaboratively and my excellent <strong>communication skills</strong>.
+              Have built full-stack applications with <strong>SQL</strong> and <strong>NoSQL </strong>(MongoDB) databases.
+            </p>
+          </div>
+        </Fade>
+        <Fade right>
+          <div className='about-box'>
+            <p className='about-four'>
+              Career changer with almost <strong>twenty years of work experience</strong> in various industies, including theatre, libraries and hospitality. 
+            </p>
+          </div>
+        </Fade>
+        <Fade left>
+          <div className='about-box'>
+            <p className='about-four'>
+             Excellent communicator and team-player with experience working in <strong>Agile</strong> environments.
+            </p>
+          </div>
+        </Fade>
+        <Fade right>
+          <div className='about-box'>
+            <p className='about-five'>
+             Problem solver and lover of learning who sees coding as a craft. Drawn to software development as a field where learning never stops.
             </p>
           </div>
           </Fade>
-          <Fade right>
+          <Fade left>
           <div className='about-box'>
-          <p className='about-four'>
-            I am now looking for an opportunity to apply these skills commercially and to continue my journey as a developer.
+          <p className='about-six'>
+            Eager to demonstrate my knowledge and skills in a commercial environment, and to continue learning and growing in this field.
           </p>
           </div>
           </Fade>
