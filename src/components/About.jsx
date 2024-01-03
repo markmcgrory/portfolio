@@ -11,14 +11,14 @@ const About = () => {
         <Fade  left>
           <div className='about-box'>
             <p className='about-one'>
-              <strong>Recent bootcamp graduate: </strong>Professional Software Development, <strong>CodeClan / CodeBase</strong>, Glasgow, July — November 2023.
+              <strong>Recent bootcamp graduate. </strong>Professional Software Development, <strong>CodeClan / CodeBase</strong>, Glasgow, July — November 2023.
             </p>
           </div>
         </Fade>
         <Fade right>
           <div className='about-box'>
             <p className='about-two'>
-              Proficient in <strong>Python, Java</strong> and <strong>JavaScript</strong>, as well as <strong>React</strong> and <strong>Node.js</strong>, although always happy to learn new languages and tools. Strong eye for <strong>design and composition.</strong>
+              Proficient in object-oriented programming. Familiar with <strong>Python, Java</strong> and <strong>JavaScript</strong>, as well as <strong>React</strong> and <strong>Node.js</strong>, although always happy to learn new languages and tools. Strong eye for <strong>design and composition.</strong>
             </p>
           </div>
         </Fade>
@@ -32,7 +32,7 @@ const About = () => {
         <Fade right>
           <div className='about-box'>
             <p className='about-four'>
-              Career changer with almost <strong>twenty years of work experience</strong> in various industies, including theatre, libraries and hospitality. 
+              Career changer with almost <strong>twenty years</strong> of previous work experience in various industies, including theatre, libraries and hospitality. 
             </p>
           </div>
         </Fade>
@@ -46,14 +46,14 @@ const About = () => {
         <Fade right>
           <div className='about-box'>
             <p className='about-five'>
-             Problem solver and lover of learning who sees coding as a craft. Drawn to software development as a field where learning never stops.
+             <strong>Problem solver</strong> and <strong>keen learner</strong>. Naturally drawn to software development as a field where learning never stops. 
             </p>
           </div>
           </Fade>
           <Fade left>
           <div className='about-box'>
           <p className='about-six'>
-            Eager to demonstrate my knowledge and skills in a commercial environment, and to continue learning and growing in this field.
+            Eager to demonstrate my <strong>knowledge, skills and experience</strong> in a commercial environment, and to continue learning and growing in this field.
           </p>
           </div>
           </Fade>
