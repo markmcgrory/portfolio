@@ -9,16 +9,17 @@ const Home = () => {
   return ( 
     <div className='home-container'>
       <div className='home-text'>
-        <Fade bottom>
-        <p className='first-p'>Hi, I'm</p>
         
+        <p className='first-p'>Hi, I'm</p>
+        <Fade bottom>
         <p className='second-p'>
           <span className='bold-name'>Mark McGrory</span>.
         </p>
+        </Fade>
         <p className='third-p'>
           I'm a software developer based in <strong className='home-strong'>Shetland</strong> with experience building <strong className='home-strong'>full-stack</strong> applications using <strong className='home-strong'>JavaScript, Python, Java</strong> and more.
         </p>
-        </Fade>
+        
         <Fade right>
         <div className='social-icons'>
           <SocialIcon style={{ width: '53px', height: '53px' }} bgColor="black" fgColor="white" url="https://github.com/markmcgrory" target="_blank" rel="noopener noreferrer" />

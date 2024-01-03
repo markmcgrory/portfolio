@@ -11,7 +11,7 @@ const About = () => {
         <Fade  left>
           <div className='about-box'>
             <p className='about-one'>
-              <strong>Recent bootcamp graduate: </strong>Professional Software Development, <strong>CodeClan / CodeBase</strong>, Glasgow, July - November 2023.
+              <strong>Recent bootcamp graduate: </strong>Professional Software Development, <strong>CodeClan / CodeBase</strong>, Glasgow, July — November 2023.
             </p>
           </div>
         </Fade>
