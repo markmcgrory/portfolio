@@ -24,7 +24,7 @@ const Projects = [
 			'/images/subwayimage5.png',
 		],
 		github: 'https://github.com/Dannycarey23/SubwaySamurai_frontend',
-		description: 'Subway Samurai is a zombie brawler game set in Glasgow In our small team, we designed and built this from scratch in just under two weeks, and it constituted our CodeClan capstone project.We incorporated music and sound effects, using Howler.js, as well as turn-based combat, with increasing difficulty levels as the player proceeds. The game also features useable "health items" — Tiger Balm, paracetamol, whisky and beer — and a mega attack. ',
+		description: 'Subway Samurai is a React zombie brawler game set in Glasgow. In our small team, we designed and built this game from scratch in just under two weeks, and it constituted our CodeClan capstone project. We incorporated music and sound effects, using Howler.js, as well as turn-based combat, with increasing difficulty levels as the player proceeds. The game also features useable "health items" — Tiger Balm, paracetamol, whisky and beer — and a mega attack. ',
 		techStack: 'React, Java, Spring, Howler.js',
 		linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:7131990495580319745/'
     },
